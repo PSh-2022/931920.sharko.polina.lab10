@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: black;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+#trick1{	
+	background: url("c.jpg") center center no-repeat;
+    background-size:  1600px 100vh;
+}
+#lighter{
+   transition: 0.2s;
+   max-width: 300px;
+   max-height: 300px;
+   margin-top: 20px;
+   z-index:5;
+}
+#light{
+    transition: 0.2s;
+    display: none;
+	opacity: 0.5;
+    position: absolute;
+    left: calc(50% - 300px);
+    top: 104px;
+    border-bottom: 700px solid rgba(255,255,0,0.5);
+    border-left: 258px solid transparent;
+    border-right: 258px solid transparent;
+    height: 0;
+    width: 87px;
+    z-index:3;
+    pointer-events: none;
+}
+#hat{
+    display: none;
+    width: 150px;
+    position: absolute;
+    left: calc(50% + 75px);
+    top: 650px;
+    height: 100px;
+    -webkit-transform: rotate(180deg);
+    z-index: 2;
+    pointer-events: none;
+}
+#rabbit{
+    display: none;
+    left: calc(50% + 110px);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 650px;
+}
+#dove{
+    display: none;
+    left: calc(50% + 110px);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 650px;
+}
+#mag{
+    display: none;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: calc(50% - 225px);
+    top: 543px;
+}
